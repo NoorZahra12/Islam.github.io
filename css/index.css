@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url(pics/glitter-purple.gif);
+}
+
+header{
+    background-image: url(pics/header.jpg);
+    background-color: rgba(29, 29, 82, 0.284);
+    height: 80px;
+}
+
+/*sizing the img tag inside the nav which i named it logo and also adding a shadow of the text inside the image by using a fliter*/
+#logo{
+    width: 200px;
+    height: 80px;
+    filter: drop-shadow(0 0 5px 5px darkblue);
+}
+
+/*displaying the items inside ul in horizontal by using flex as horizontal alignment is the default direction of flex 
+and also making the ul a parent */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 700px;
+}
+ 
+/*creating a distance betweeen the items in list*/
+nav ul li {
+    margin-right: 15px;
+}
+
+/*styling*/
+nav ul li a {
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+    background-color:rgb(28, 0, 120);
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/*changes made when user hovers*/
+nav ul li a:hover {
+    background-color: rgba(156, 139, 255, 0.878);
+    text-decoration: underline;
+}
