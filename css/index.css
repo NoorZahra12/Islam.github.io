@@ -14,12 +14,12 @@ header{
 #logo{
     width: 200px;
     height: 80px;
-    filter: drop-shadow(0 0 5px 5px darkblue);
 }
 
 /*displaying the items inside ul in horizontal by using flex as horizontal alignment is the default direction of flex 
 and also making the ul a parent */
 nav ul {
+    background-color: red;
     list-style: none;
     display: flex;
     margin-top: -50px;
@@ -28,6 +28,7 @@ nav ul {
  
 /*creating a distance betweeen the items in list*/
 nav ul li {
+    background-color: blue;
     margin-right: 15px;
 }
 
