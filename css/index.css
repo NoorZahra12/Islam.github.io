@@ -6,7 +6,6 @@ body{
 }
 
 header{
-    background-image: url(pics/header.jpg);
     background-color: rgba(29, 29, 82, 0.284);
     height: 80px;
 }
