@@ -2,11 +2,10 @@ body{
     margin: 0;
     padding: 0;
     color: white;
-    background-image: url(pics/glitter-purple.gif);
 }
 
 header{
-    background-color: rgba(29, 29, 82, 0.284);
+    background-color: rgba(69, 69, 168, 0.249);
     height: 80px;
 }
 
@@ -18,16 +17,17 @@ header{
 
 /*displaying the items inside ul in horizontal by using flex as horizontal alignment is the default direction of flex 
 and also making the ul a parent */
+
 nav ul {
     background-color: red;
     list-style: none;
     display: flex;
-    margin-top: -50px;
-    margin-left: 700px;
+    float: right;
 }
  
 /*creating a distance betweeen the items in list*/
 nav ul li {
+    display: flex;
     background-color: blue;
     margin-right: 15px;
 }
